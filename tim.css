@@ -1,0 +1,157 @@
+   header {
+       display: flex;
+       align-items: center;
+
+       gap: 25px;
+       padding: 25px 30px;
+   }
+
+   .tot,a {
+       display: flex;
+       gap: 20px;
+       align-items: center;
+       border: none;
+     text-decoration: none;
+     color: aliceblue;
+
+   }
+
+   .ball {
+       display: flex;
+       justify-content: space-between;
+
+   }
+
+   h2 {
+       color: rgb(196, 69, 69);
+   }
+
+   h1 {
+       color: antiquewhite;
+   }
+
+   pre {
+       color: aliceblue;
+   }
+
+   section {
+       display: flex;
+       flex-direction: column;
+   }
+
+   * {
+       background-color: rgb(19, 13, 44);
+   }
+
+   .ball {
+       display: flex;
+       gap: 100px;
+   }
+
+
+   
+    @media(max-width: 1000px){
+        .demo{
+           display: flex;
+            flex-direction: column;
+
+        }
+        .tot{
+            display: flex;
+            flex-direction: column;
+        }
+       .cs{
+        display: flex;
+        background-color: aqua;
+        flex-direction: column;
+       }
+       .pg{
+        display: flex;
+        flex-direction: column;
+        background: teal;
+       }
+
+    }
+    
+  .demo {
+       display: flex;
+       gap: 100px;
+    }
+
+   
+   .nimo {
+       display: flex;
+       gap: 400px;
+   }
+
+   .photo {
+       display: flex;
+       gap: 50px;
+       padding: 40px;
+   }
+
+
+   form {
+       margin-top: 30px;
+   }
+
+   form label {
+       display: inline-block;
+       width: 110px;
+       color: antiquewhite;
+       font-weight: bold;
+   }
+
+   form input {
+       width: 220px;
+       height: 30px;
+       background: transparent;
+       border: none;
+     
+       outline: none;
+       color: aliceblue;
+   }
+
+   form button {
+       margin-top: 15px;
+       margin-left: 5px;
+       padding: 10px;
+       background-color: rgb(196, 69, 69);
+       color: white;
+
+   }
+
+   button:hover {
+       background-color: green;
+   }
+
+   .photo:hover {
+       transform: scale(1.2);
+
+   }
+
+   .poto:hover {
+       transform: rotate(180 eg);
+       transition: 2s ease;
+   }
+   .lin{
+    display: flex;
+    flex-direction: row;
+    color: brown;
+    gap: 20px;
+    
+   }
+
+   .fa-brands{
+    border: 2px solid brown;
+    border-radius: 200px;
+    display: flex;
+   padding: 5px;
+   }
+
+   .fa-solid{
+    border: 2px solid brown;
+    border-radius: 200px;
+    display: flex;
+    padding: 5px;
+   }
